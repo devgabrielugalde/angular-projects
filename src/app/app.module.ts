@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderLogoComponent } from './header/header-logo/header-logo.component';
 import { HeaderEmailButtonComponent } from './header/header-email-button/header-email-button.component';
 import { HeaderMenuButtonComponent } from './header/header-menu-button/header-menu-button.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderMenuButtonComponent } from './header/header-menu-button/header-me
     HeaderComponent,
     HeaderLogoComponent,
     HeaderEmailButtonComponent,
-    HeaderMenuButtonComponent
+    HeaderMenuButtonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
